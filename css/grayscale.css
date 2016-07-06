@@ -100,7 +100,7 @@ a:focus {
 
 .navbar-custom .nav li a:hover {
     outline: 0;
-    color: rgba(255,255,255,.8);
+    color: rgba(255,255,255,.6);
     background-color: transparent;
 }
 
@@ -158,6 +158,8 @@ a:focus {
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
+    background-color: #b2b2b2;
+    background-color: rgba(0, 0, 0, .5);
 }
 
 .intro .intro-body .brand-heading {
@@ -223,7 +225,7 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {    
+@-webkit-keyframes pulse {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -240,7 +242,7 @@ a:focus {
     }
 }
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
     0% {
         -moz-transform: scale(1);
         transform: scale(1);
@@ -305,7 +307,7 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #42dca3;
+    border: 3px solid #42dca3;
     color: #42dca3;
     background-color: transparent;
 }
