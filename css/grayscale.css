@@ -51,10 +51,14 @@ a {
     transition: all .2s ease-in-out;
 }
 
+i:hover {
+    color: #6C2DC7;
+}
+
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    color: #FF6600;
 }
 
 .light {
@@ -153,6 +157,7 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    height: 100vh;
 }
 
 .intro .intro-body {
