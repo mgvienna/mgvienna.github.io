@@ -52,10 +52,14 @@ a {
 }
 
 i:hover {
-    color: #6C2DC7;
+    color: #6495ED;
 }
 
-a:hover,
+a:hover {
+  color: #6495ED;
+  text-decoration: none;
+}
+
 a:focus {
     text-decoration: none;
     color: #FF6600;
@@ -303,6 +307,7 @@ a:focus {
 
 .btn {
     border-radius: 2px;
+    hover: #00BFFF
     text-transform: uppercase;
     border-color: #FF6600;
     background-color: black;
@@ -311,6 +316,10 @@ a:focus {
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+}
+
+.btn:hover {
+    color: #6495ED;
 }
 
 .btn-default {
