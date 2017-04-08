@@ -78,9 +78,6 @@ a {
       border-bottom: none;
       letter-spacing: 1px;
       background: transparent;
-      -webkit-transition: background .25s ease-in-out, padding .25s ease-in-out;
-      -moz-transition: background .25s ease-in-out, padding .25s ease-in-out;
-      transition: background .25s ease-in-out, padding .25s ease-in-out; }
       #mainNav.navbar-shrink {
         padding: 10px 0;
         background: black;
